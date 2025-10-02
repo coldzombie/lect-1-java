@@ -1,0 +1,40 @@
+h1 {
+    color: #ffa200;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+div.buttons{
+    width: 300px;
+    height: 200px;
+    border-style: dotted solid double dashed;
+    border-width: thin medium thick;
+    
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: chartreuse;
+    background-color: darkmagenta;
+    border: none;
+    border-radius: 15;
+    box-shadow: 0 9px crimson;
+}
+button:hover{
+background-color: blue;
+}
+
+button:active{
+background-color: rgb(255, 251, 0);
+box-shadow: 0 5px #4c00ff;
+transform: translate(4px);
+}
